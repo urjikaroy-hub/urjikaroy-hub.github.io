@@ -49,23 +49,19 @@
                 box-shadow: 0 8px 16px rgba(0,0,0,0.6);
                 height: 100%;
             }
-            
-            /* Button Override */
-            .button-large, .button { 
-                background-color: #84cc16 !important; 
-                color: #111111 !important; 
-                border: none !important; 
-                font-weight: 700;
-                font-family: 'JetBrains Mono', monospace !important;
-                font-size: 13px !important;
-                border-radius: 2px !important;
-                box-shadow: 0 4px 10px rgba(132, 204, 22, 0.2);
-                padding: 12px 24px !important;
-                text-decoration: none;
-                display: inline-block;
-                text-transform: uppercase;
+
+            /* Subtle Gray Line Link */
+            .line-link {
+                color: #b0b0b0 !important;
+                text-decoration: none !important;
+                border-bottom: 1px solid #777777;
+                padding-bottom: 2px;
+                transition: color 0.2s, border-color 0.2s;
             }
-            .button-large:hover { background-color: #95e01b !important; }
+            .line-link:hover {
+                color: #ffffff !important;
+                border-bottom: 1px solid #ffffff;
+            }
 
             /* Grid Spacing Fixes */
             .section-pad { padding: 50px 0; border-top: 1px solid #222; }
@@ -100,7 +96,8 @@
                             <h2>SATB Checker - AP Music Theory Part Reading Checker</h2>
                             <p>A C++ parsing engine designed to analyze complex musical notation. It evaluates 4-part harmonies (Soprano, Alto, Tenor, Bass) against strict voice-leading rules to automate AP Music Theory grading.</p>
                             <br>
-                            <a href="#" class="button-large">View GitHub Repository</a>
+                            <!-- Replaced Button with Light Gray Line Link -->
+                            <a href="https://github.com/urjikaroy-hub" target="_blank" class="tech-text line-link">View GitHub Repository &rarr;</a>
                         </div>
                         <div class="col-6 col-12-medium imp-medium">
                             <img src="images/banner.jpg" alt="SATB Checker" class="flat-card" style="width: 100%; padding: 5px;" />
@@ -120,7 +117,7 @@
                                 <h4 class="accent tech-text">COURSE 01</h4>
                                 <h2>Stanford Machine Learning</h2>
                                 <p>This is sentence one explaining the course concepts. This is sentence two talking about the specific technologies used. This is sentence three highlighting a key project or takeaway. This is sentence four wrapping up the value of the certification.</p>
-                                <a href="#" class="accent tech-text" style="text-decoration: underline; font-weight: bold;">View Certificate &rarr;</a>
+                                <a href="#" class="tech-text line-link">View Certificate &rarr;</a>
                             </div>
                         </div>
                         <!-- Course 2 -->
@@ -129,7 +126,7 @@
                                 <h4 class="accent tech-text">COURSE 02</h4>
                                 <h2>Quantitative Finance Methods</h2>
                                 <p>This is sentence one explaining the course concepts. This is sentence two talking about the specific technologies used. This is sentence three highlighting a key project or takeaway. This is sentence four wrapping up the value of the certification.</p>
-                                <a href="#" class="accent tech-text" style="text-decoration: underline; font-weight: bold;">View Certificate &rarr;</a>
+                                <a href="#" class="tech-text line-link">View Certificate &rarr;</a>
                             </div>
                         </div>
                         <!-- Course 3 -->
@@ -138,7 +135,7 @@
                                 <h4 class="accent tech-text">COURSE 03</h4>
                                 <h2>C++ Advanced Programming</h2>
                                 <p>This is sentence one explaining the course concepts. This is sentence two talking about the specific technologies used. This is sentence three highlighting a key project or takeaway. This is sentence four wrapping up the value of the certification.</p>
-                                <a href="#" class="accent tech-text" style="text-decoration: underline; font-weight: bold;">View Certificate &rarr;</a>
+                                <a href="#" class="tech-text line-link">View Certificate &rarr;</a>
                             </div>
                         </div>
                     </div>
@@ -164,4 +161,24 @@
                     <div class="row aln-center">
                         <div class="col-8 col-12-medium" style="text-align: center;">
                             <h2>Beyond the Code</h2>
-                            <p>Thank you for taking the time to review my portfolio. When I'm not writing C++ algorithms or studying quantitative systems, I am deeply involved in music composition and theory. I love blending the structural logic of programming with the creative expression of sound. Exploring how mathematical frameworks apply to creative arts is a core part of
+                            <p>Thank you for taking the time to review my portfolio. When I'm not writing C++ algorithms or studying quantitative systems, I am deeply involved in music composition and theory. I love blending the structural logic of programming with the creative expression of sound. Exploring how mathematical frameworks apply to creative arts is a core part of who I am, driving my curiosity in both disciplines.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <div id="copyright" class="tech-text" style="background-color: #0a0a0a !important; padding: 30px; text-align: center; border-top: 1px solid #222; font-size: 11px !important;">
+                &copy; 2026 Urjika Roy. All rights reserved.
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
